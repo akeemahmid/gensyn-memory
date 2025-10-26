@@ -299,7 +299,7 @@ const Entrypage = () => {
         {cards.map((card, index) => (
           <div
             key={index}
-            className={`w-[90px] h-[90px] md:h-28 md:w-28 text-4xl font-bold text-[#3E3170] cursor-pointer transform bg-gray-600 flex justify-center items-center transition-transform duration-300 ${
+            className={`w-[90px] h-[90px] md:h-28 md:w-28 text-4xl font-bold text-[#581000] cursor-pointer transform bg-gray-600 flex justify-center items-center transition-transform duration-300 ${
               flipCard.includes(index) || solved.includes(index)
                 ? "rotate-180"
                 : ""
